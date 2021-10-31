@@ -1,27 +1,21 @@
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #424242;
-  max-width: 960px;
-  padding: 16px;
+.country__title {
+  font-size: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkred;
 }
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
+.country__thumb-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.country__capital,
+.country__population,
+.languages {
+  font-size: 32px;
+  color: darkblue;
   font-weight: 700;
-  background-color: #009688;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
 }
-
-.example .background {
-  height: 240px;
-  // Путь к изображениям из SASS-файла всегда такой, как из папки css
-  background-image: url('../images/demo.jpg');
-  background-size: cover;
-  background-position: center;
+.info,
+.languages-list__item {
+  font-weight: 400;
+  color: darkblue;
 }
